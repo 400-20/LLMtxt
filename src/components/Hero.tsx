@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ChevronDown, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import heroImage from "@/assets/hero-bg.jpg";
 import { useEffect, useRef } from "react";
 import gsap from 'gsap';

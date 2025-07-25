@@ -100,8 +100,8 @@ export const CTA = () => {
               ))}
             </div>
             <blockquote className="text-lg text-foreground italic mb-4">
-              "This tool saved me hours of work. The generated llms.txt files are 
-              perfectly structured and ready to use. Absolutely love it!"
+              &apos;This tool saved me hours of work. The generated llms.txt files are 
+              perfectly structured and ready to use. Absolutely love it!&apos;
             </blockquote>
             <cite className="text-muted-foreground">
               — Alex Chen, AI Developer
