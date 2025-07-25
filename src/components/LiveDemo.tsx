@@ -199,7 +199,7 @@ In One Click
                 initial={{ opacity: 0, x: -50 }}
                 animate={isInView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.8, delay: 0.2 }}
-                className="space-y-6 col-span-1"
+                className="space-y-6 lg:col-span-1"
               >
                 <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-6">
                   <h3 className="text-xl font-semibold mb-4 text-gray-900">Project Input</h3>
@@ -211,7 +211,7 @@ In One Click
                         type="url"
                         value={projectUrl}
                         onChange={(e) => setProjectUrl(e.target.value)}
-                        placeholder="https://github.com/username/project or https://yourwebsite.com"
+                        placeholder="https://yourwebsite.com"
                         className="w-full px-4 py-3 bg-gray-50 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent text-gray-900 placeholder-gray-500"
                       />
                     </div>
@@ -248,7 +248,7 @@ In One Click
                 initial={{ opacity: 0, x: 50 }}
                 animate={isInView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.8, delay: 0.4 }}
-                className="space-y-6 col-span-2"
+                className="space-y-6 lg:col-span-2"
               >
                 <div className="bg-white rounded-xl shadow-lg border border-gray-200 p-6">
                   <div className="flex items-center justify-between mb-4">
